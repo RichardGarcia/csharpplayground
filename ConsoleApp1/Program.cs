@@ -8,8 +8,15 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("second commit");
+            
+
+
+            String StringVariable01 = "Buddy Zabala";
+            Console.WriteLine(StringVariable01);
+
+
             Console.ReadKey();
- 
+
         }
     }
 }
