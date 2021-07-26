@@ -47,6 +47,9 @@ namespace ConsoleApp1
             sayHello = sayHello.Replace("Hello", "Greetings");
             Console.WriteLine(sayHello);
 
+            Console.WriteLine(sayHello.ToUpper());
+            Console.WriteLine(sayHello.ToLower());
+
             Console.ReadKey();
 
         }
