@@ -28,6 +28,19 @@ namespace ConsoleApp1
             // Both calls produce the same output that is similar to:
             // Hello, Mark! Today is Wednesday, it's 19:40 now.
 
+
+            string greeting = "      Hello World!       ";
+            Console.WriteLine($"[{greeting}]");
+
+            string trimmedGreeting = greeting.TrimStart();
+            Console.WriteLine($"[{trimmedGreeting}]");
+
+            trimmedGreeting = greeting.TrimEnd();
+            Console.WriteLine($"[{trimmedGreeting}]");
+
+            trimmedGreeting = greeting.Trim();
+            Console.WriteLine($"[{trimmedGreeting}]");
+
             Console.ReadKey();
 
         }
