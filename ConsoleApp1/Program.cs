@@ -55,6 +55,17 @@ namespace ConsoleApp1
             Console.WriteLine(songLyrics.Contains("goodbye"));
             Console.WriteLine(songLyrics.Contains("greetings"));
 
+
+            //Faranheieht to Celcius
+
+            float Far = (350 - 32) * 5 / 9;
+            //(400°F − 32) × 5 / 9 = 204.444°C
+
+            Console.WriteLine($"400 Deg FAR is { Far} Celcius");
+
+
+
+
             Console.ReadKey();
 
         }
