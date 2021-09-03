@@ -66,6 +66,18 @@ namespace ConsoleApp1
 
 
 
+
+            static void SayHi() {
+
+                Console.WriteLine( "This is from say Hi Method.. :) ");
+
+            }
+
+
+
+
+            SayHi();
+
             Console.ReadKey();
 
         }
