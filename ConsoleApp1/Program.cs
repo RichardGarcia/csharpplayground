@@ -4,8 +4,44 @@ namespace ConsoleApp1
 {
     class Program
     {
+
+        // GlobalVariables
+        static string GlobalvarName = "Buddy Zabala (Global)";
+
+        static string GlobalvarName222 = "Buddy Zabala (Globalvar name222)";
+        static string GlobalvarName333 = "Buddy Zabala (Globalvar name333)";
+
         static void Main(string[] args)
         {
+
+
+
+            
+            int numA = 11;
+
+
+            if (numA == 10)
+            {
+
+                
+
+                Console.WriteLine(numA + "is equal to 10");
+
+                Console.WriteLine($"Thid id Global varname ---> GlobalvarName");
+
+
+            } 
+                else 
+                {
+
+                Console.WriteLine(numA + "not equal to 10");
+
+
+                Console.WriteLine(GlobalvarName222);
+            }
+            
+
+            Console.WriteLine(GlobalvarName);
             Console.WriteLine("Hello World!");
             Console.WriteLine("second commit");
             
@@ -66,17 +102,34 @@ namespace ConsoleApp1
 
 
 
+            static void CallingGlobalVar() {
 
-            static void SayHi() {
-
-                Console.WriteLine( "This is from say Hi Method.. :) ");
-
+                Console.WriteLine(GlobalvarName222);
+                
             }
 
 
+            static void SayHi() {
+
+
+                
+
+                Console.WriteLine( "This is from say Hi Method.. :) ");
+
+                Console.WriteLine($"This is Global varible name inside SayhiMethod -->  {GlobalvarName}");
+
+
+
+                Console.WriteLine(GlobalvarName222);
+
+                Console.WriteLine(GlobalvarName333);
+            }
 
 
             SayHi();
+
+
+            Console.WriteLine($"This is Global varible name -->  {GlobalvarName}");
 
             Console.ReadKey();
 
